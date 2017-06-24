@@ -1,0 +1,135 @@
+*
+{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+
+body>main
+{
+	width: 1000px;
+	height: 1500px;
+	background-color: blue;
+}
+
+header
+{
+	width: 1000px;
+	height: 100px;
+	background-color: red;
+	
+}
+header>h1
+{
+	text-align: center;
+	font-family: Copperplate Gothic;
+	//margin-top: 20px;
+	padding-top: 30px;
+}
+.menu
+{
+	width: 1000px;
+	height: 50px;
+	background-color: orange;
+	//float: left;
+}
+
+.menu ul 
+{
+	
+	list-style: none;
+	//margin-left: 0px;
+	//margin: 0px;
+	padding: 0px;
+	float: left;
+};
+.menu ul li:nth-child(1) 
+{
+	width: 450px;
+	height: 50px;
+	display: inline-block;
+	float: left;
+	//margin-left: 0px;
+	text-align: center;
+	font-size: 20px;
+	//padding: 10px 40px auto 40px;
+	//padding: 10px 40px auto 40px;
+	border-right: 1px solid white
+}
+
+.menu ul li:last-child
+{
+	
+}
+
+
+.menu>ul li a 
+{
+	text-decoration: none;
+	color: white;
+	//line-height: 20px;
+	float: left;
+	width: 450px;
+	height: 50px;
+	
+}
+
+.menu ul li a:hover
+{
+	background-color: green;
+	width: 450px;
+	height: 50px;
+	
+}
+
+.location ul 
+{
+	
+	list-style: none;
+	//margin-left: 0px;
+	//margin: 0px;
+	padding: 0px;
+	float: left;
+}
+.location ul li
+{
+	width: 199px;
+	height: 50px;
+	display: inline-block;
+	float: left;
+	//margin-left: 0px;
+	text-align: center;
+	font-size: 20px;
+	//padding: 10px 40px auto 40px;
+	//padding: 10px 40px auto 40px;
+	
+}
+
+
+.location>ul li a 
+{
+	text-decoration: none;
+	color: white;
+	//line-height: 20px;
+	float: left;
+	width: 199px;
+	height: 50px;
+	
+}
+
+.location ul li a:hover
+{
+	background-color: green;
+	width: 199px;
+	height: 50px;
+	
+}
+
+
+.product>img
+{
+	width: 350px;
+	height: 400px;
+	margin-left: 50px;
+	margin-top: 50px;
+}

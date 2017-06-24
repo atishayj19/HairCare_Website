@@ -1,0 +1,256 @@
+*
+{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+
+body>main
+{
+	width: 1000px;
+	height: 1500px;
+	background-color: blue;
+}
+
+header
+{
+	width: 1000px;
+	height: 100px;
+	background-color: red;
+	
+}
+header>h1
+{
+	text-align: center;
+	font-family: Copperplate Gothic;
+	//margin-top: 20px;
+	padding-top: 30px;
+}
+
+.menu
+{
+	width: 1000px;
+	height: 50px;
+	background-color: orange;
+	//float: left;
+}
+
+.menu ul 
+{
+	
+	list-style: none;
+	//margin-left: 0px;
+	//margin: 0px;
+	padding: 0px;
+	float: left;
+}
+.menu ul li
+{
+	width: 199px;
+	height: 50px;
+	display: inline-block;
+	float: left;
+	//margin-left: 0px;
+	text-align: center;
+	font-size: 20px;
+	//padding: 10px 40px auto 40px;
+	//padding: 10px 40px auto 40px;
+	border-right: 1px solid white
+}
+
+
+.menu>ul li a 
+{
+	text-decoration: none;
+	color: white;
+	//line-height: 20px;
+	float: left;
+	width: 199px;
+	height: 50px;
+	
+}
+
+.menu ul li a:hover
+{
+	background-color: green;
+	width: 199px;
+	height: 50px;
+	
+	
+}
+
+
+.slideshow
+{
+	width: 1000px;
+	height: 450px;
+	background-color: pink;
+}
+
+
+
+.slideshow div
+{
+	width: 1000px;
+	height: 450px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+
+
+
+.slideshow div section
+{
+	width: 500%;
+	height: 450px;
+	position: relative;
+	animation: images 20s infinite ease-in-out;
+}
+
+.slideshow div section img
+{
+	width: 20%;
+	height: 450px;
+	float: left;
+	padding: 0px 0px 0px 0px;
+	position: relative;
+	
+}
+
+@keyframes images
+{
+	0%{left:0%;}
+	20%{left:0%;}
+	25%{left:-100%;}
+	40%{left:-100%;}
+	45%{left:-200%; }
+	60%{left:-200%;}
+	65%{left:-300%;}
+	80%{left:-300%;}
+	85%{left:-400%;}
+	100%{left:-400%;}
+}
+
+
+.cateogory
+{
+	width: 1000px;
+	height: 400px;
+	background-color: yellow;
+}
+
+.cateogory section
+{
+	float: left;
+	
+	margin-left: 20px;
+	width: 300px;
+	height: 400px;
+	
+	background-color: orange;
+}
+.cateogory section h1
+{
+	text-align: center;
+}
+
+.cateogory section img
+{
+	width: 300px;
+	height: 370px;
+}
+.cateogory>section:first-child
+{
+	
+}
+.cateogory>section:nth-child(2)
+{
+	
+}
+.cateogory>section:last-child
+{
+}
+
+.cateogory h1 a
+{
+	text-decoration: none;
+	color: black;
+}
+.cateogory h1 a:hover
+{
+	color:blue;
+	
+	 
+}
+
+
+.popular
+{
+	width: 1000px;
+	height: 300px;
+	background-color: green;
+	
+	
+}
+
+.popular h1
+{
+	font-family: Copperplate Gothic;
+	font-size: 30px;
+	text-align: center;
+}
+
+.popular img
+{
+		width: 240px;
+		height: 250px;
+		margin-left: 5px;
+		
+		
+}
+
+.testimonials
+{
+	width: 1000px;
+	height: 300px;
+	background-color: orange;
+
+}
+.testimonials h1
+{
+	margin-left:400px;
+	font-family:Forte;
+	font-size:30px;
+}
+.testimonials img
+{
+	
+	width:150px;
+	height:150px;
+	margin-left: 400px;
+}
+.testimonials p
+{
+	font-family: Arial;
+	font-size: 20px;
+	text-align: justify;
+}
+
+footer
+{
+	width: 1000px;
+	height: 200px;
+	background-color: red;
+	text-align: center;
+	
+}
+footer>h1
+{
+	font-family:KG Blank Space Solid;
+}
+footer>h2
+{
+	font-family:Kaufmann BT;
+	font-size:40px;
+}

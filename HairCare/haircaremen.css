@@ -1,0 +1,401 @@
+*
+{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+
+body>main
+{
+	width: 1000px;
+	height: 1500px;
+	background-color: blue;
+}
+
+header
+{
+	width: 1000px;
+	height: 100px;
+	background-color: red;
+	
+}
+header>h1
+{
+	text-align: center;
+	font-family: Copperplate Gothic;
+	//margin-top: 20px;
+	padding-top: 30px;
+}
+.menu
+{
+	width: 1000px;
+	height: 50px;
+	background-color: orange;
+	//float: left;
+}
+
+.menu ul 
+{
+	
+	list-style: none;
+	//margin-left: 0px;
+	//margin: 0px;
+	padding: 0px;
+	float: left;
+}
+.menu ul li
+{
+	width: 199px;
+	height: 50px;
+	display: inline-block;
+	float: left;
+	//margin-left: 0px;
+	text-align: center;
+	font-size: 20px;
+	//padding: 10px 40px auto 40px;
+	//padding: 10px 40px auto 40px;
+	border-right: 1px solid white
+}
+
+
+.menu>ul li a 
+{
+	text-decoration: none;
+	color: white;
+	//line-height: 20px;
+	float: left;
+	width: 199px;
+	height: 50px;
+	
+}
+
+.menu ul li a:hover
+{
+	background-color: green;
+	width: 199px;
+	height: 50px;
+	
+	
+}
+
+.mensection
+{
+	width: 1000px;
+	height:50px;
+	background-color: yellow;
+}
+
+.mensection>h1
+{
+	
+	font-family: Copperplate Gothic;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.menpopular
+{
+	width: 1000px;
+	height: 300px;
+	background-color: pink;
+}
+.menpopular>h1
+{
+	
+	font-family: Copperplate Gothic;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.menpopular img
+{
+		width: 300px;
+		height: 250px;
+		margin-left: 5px;
+		padding-left:15px;
+		
+		
+}
+.slideshow
+{
+	width: 1000px;
+	height: 450px;
+	background-color: pink;
+}
+
+.slideshow div
+{
+	width: 1000px;
+	height: 450px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+
+.slideshow div section
+{
+	width: 500%;
+	height: 450px;
+	position: relative;
+	animation: images 20s infinite ease-in-out;
+}
+
+.slideshow div section img
+{
+	width: 20%;
+	height: 450px;
+	float: left;
+	padding: 0px 0px 0px 0px;
+	position: relative;
+	
+}
+
+@keyframes images
+{
+	0%{left:0%;}
+	20%{left:0%;}
+	25%{left:-100%;}
+	40%{left:-100%;}
+	45%{left:-200%; }
+	60%{left:-200%;}
+	65%{left:-300%;}
+	80%{left:-300%;}
+	85%{left:-400%;}
+	100%{left:-400%;}
+}
+
+.allproducts
+{
+	background-color:orange;
+	width:1000px;
+	height: 30px;
+}
+.allproducts>h1
+{
+	text-align: center;
+	font-family: Copperplate Gothic;
+}
+.oils
+{
+	width: 1000px;
+	height: 300px;
+	background-color: pink;
+}
+.oils>h1
+{
+	font-family: Copperplate Gothic;
+	text-align: left;
+	color: red;
+}
+.oils>ul
+{
+	list-style-type: none;
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 5px;
+	
+	 
+}
+
+.oils>ul li
+{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: Arial;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: white;
+	opacity: 0.5px;
+	display: inline-block;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.oils>ul li:last-child
+{
+	margin-left:800px;
+}
+
+.oils img
+{
+	width: 250px;
+	height: 250px;
+	margin-left: 400px;
+	margin-top: -10px;
+}
+.oils img
+{
+	position: absolute;
+	overflow: hidden;
+	float: left;
+}
+
+.shampoos
+{
+	width: 1000px;
+	height: 300px;
+	background-color: green;
+}
+.shampoos>h1
+{
+	font-family: Copperplate Gothic;
+	text-align: left;
+	color: red;
+}
+.shampoos>ul
+{
+	list-style-type: none;
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 5px;
+	
+	 
+}
+
+.shampoos>ul li
+{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: Arial;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: white;
+	opacity: 0.5px;
+	display: inline-block;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.shampoos>ul li:last-child
+{
+	margin-left:800px;
+}
+
+.shampoos>img
+{
+	width: 250px;
+	height: 250px;
+	margin-left: 400px;
+	margin-top: -10px;
+}
+.shampoos>img
+{
+	position: absolute;
+	overflow: hidden;
+	float: left;
+}
+
+.hairwax
+{
+	width: 1000px;
+	height: 300px;
+	background-color: pink;
+}
+.hairwax>h1
+{
+	font-family: Copperplate Gothic;
+	text-align: left;
+	color: red;
+}
+.hairwax>ul
+{
+	list-style-type: none;
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 5px;
+	
+	 
+}
+
+.hairwax>ul li
+{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: Arial;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: white;
+	opacity: 0.5px;
+	display: inline-block;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.hairwax>ul li:last-child
+{
+	margin-left:800px;
+}
+
+.hairwax>img
+{
+	width: 250px;
+	height: 250px;
+	margin-left: 400px;
+	margin-top: -10px;
+}
+.hairwax>img
+{
+	position: absolute;
+	overflow: hidden;
+	float: left;
+}
+.serums
+{
+	width: 1000px;
+	height: 300px;
+	background-color: green;
+}
+.serums>h1
+{
+	font-family: Copperplate Gothic;
+	text-align: left;
+	color: red;
+}
+.serums>ul
+{
+	list-style-type: none;
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 5px;
+	
+	 
+}
+
+.serums>ul li
+{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: Arial;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: white;
+	opacity: 0.5px;
+	display: inline-block;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.serums>ul li:last-child
+{
+	margin-left:800px;
+}
+
+.serums>img
+{
+	width: 250px;
+	height: 250px;
+	margin-left: 400px;
+	margin-top: -10px;
+}
+.serums>img
+{
+	position: absolute;
+	overflow: hidden;
+	float: left;
+}
